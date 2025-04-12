@@ -17,6 +17,23 @@ It is not pre-trained, not rule-based, and not dependent on reinforcement signal
 
 📊 Live dashboard with HUD, action tracking, sensory panel, and agent stats
 
+Commands
+=========================
+
+# Run with full render
+python main.py --render
+
+# Headless speed mode
+python main.py
+
+# Enable heatmap tracking
+python main.py --heatmap
+
+# Full screen with enemies
+python main.py --render --maximize --enemies
+=============================
+
+
 🚨 New Features (v2025.04)
 ✔ Intrinsic Motivation System
 
